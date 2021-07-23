@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg-img{
+    background: url('./lovetolearn.jpeg') no-repeat center center/cover;
+	height: 600px;
+}
+
+/*.overlay{
+    background-color: rgba(51, 133, 64, 0.5);
+    height: 500px; */
+} 
+.navbar{
+    /* border: none;
+    background-color: transparent; */
+	position: sticky;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-body {
+	margin-top: 5rem;
+}
+
+.nav-item{
+	color: green;
+}
+
+.caption {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    color: white;
+}
+
+.caption h3{
+	margin-bottom: 0;
+}
+
+.caption h1{
+	font-size: 70px;
+	font-weight: bold;
+	}
+
+.topic{
+	width: 900px;
+	text-align: center;
+	line-height: 0.9 ;
+}
+
+.btn-outline-primary{
+    border-radius: 25px;
+    padding: 5px 25px;
+    margin-top: 10px;
+}
+
+
+.container-box {
+    display: flex;
+    z-index: 1;
+    top: 45%;
+    left: 17%;
+    max-width: 75%;
+    margin: -80px auto 20px auto;
+    padding: 40px;
+    border-radius: 5px;
+	color: green;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.box {
+    padding: 20px 30px;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);  
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.box:last-child {
+    border-right: none;
+}
+
+.box:hover {
+    transition:  0.5s;
+    background: green;
+    color: white;
+    width: 220px;
+    z-index: 1;
+    transform: scale(1.8);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.box h3, .box p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+}
+
+.fourth{
+    transition:  0.5s;
+    background: rgba(0, 0,  255, 0.85);
+    color: white;
+    width: 220px;
+    z-index: 1;
+    transform: scale(1.8);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container-lg{
+	padding-top: 50px;
+}
+
+.skills{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.skills a{
+	color: green;
+}
+
+.head-text h2 {
+    text-align: center;
+	margin-top: 40px;
+}
+.container-lg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+}
+
+.container-lg img:hover{
+    transition:  0.5s;
+    z-index: 1;
+    transform: scale(1.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);  
+}
+
+.first, .second, .third{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.first h4, .second h4, .third h4{
+	margin-top: 10px;
+}
+
+.nav-bg{
+	background: url('./group.jpeg') no-repeat center center/cover;
+	height: 650px;
+	color: white;
+}	
+
+.fas{
+	color: #0d6efd;
+}
+
+.header h1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.container2{
+	text-align: center;
+
+}
+
+.btn-lanre {
+	background-color: rgba(0, 0, 0, 0.1 );
+	border: none;
+	outline: none;
+	color: white;
+	text-align: center;
+	padding: 15px 32px;
+	margin-top: 70px;
+	margin-left: -5px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+  }
+
+.active1{
+	background-color: #0d6efd;
+}
+
+.overlay2 {
+	background-color: rgba(51, 133, 64, 0.5);
+	height: 650px;
+}
+
+.main2 p{
+	text-align: center;
+	width: 925px;
+	margin-top: 25px;
+	margin-left: 170px;
+}
+
+/* button styling */
+.btn-lanre {
+	border: none;
+	padding: 10px 20px;
+	/* background: transparent; */
+}
+
+.btn-lanre:hover {
+	background-color: #0d6efd;
+}
+
+.btn-lanre:active {
+	background-color: rgb(122 0 250);
+}
+
+.about-us-section {
+	width: 900px;
+	margin: 25px auto;
+}
+
+.section-block {
+	display: inline-block;
+	width: 30%;
+	margin-right: 20px;
+}
+
+.section-block h1{
+	font-size: 25px;
+	width: 400px;
+	margin-bottom: 15px;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 40px;
+}
